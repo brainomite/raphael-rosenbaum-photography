@@ -255,7 +255,7 @@ p {
 .banner-title {
   color: #fff;
   display: block;
-  left: 300px;
+  left: 50%;
   position: relative;
   text-align: center;
   top: 50%;
@@ -851,3 +851,26 @@ footer {
   }
 }
 
+.banner-logo {
+  max-width: 100vw;
+  max-height: 300px;
+}
+
+.banner-btns {
+  justify-content: space-around;
+  display: flex;
+  width: 55vw;
+  margin: auto;
+}
+
+@media (max-width: 1280px) {
+  .banner-btns {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .banner-btns {
+    width: 100vw;
+  }
+}
