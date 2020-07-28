@@ -139,7 +139,7 @@ p {
   position: relative;
 }
 .btn-secondary {
-  background: #ff5200 none repeat scroll 0 0;
+  background: #393939 none repeat scroll 0 0;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -153,7 +153,7 @@ p {
 }
 
 .btn-primary {
-  background: #ff5200 none repeat scroll 0 0;
+  background: #393939 none repeat scroll 0 0;
   border: medium none;
   border-radius: 8px;
   font-size: 15px;
@@ -164,13 +164,13 @@ p {
   transition: background 0.3s ease-in-out 0s;
 }
 .btn-primary:hover {
-  background: #393939;
+  background: #ff5200;
   border-color: #38300a;
 }
 .btn-primary.focus,
 .btn-primary:focus {
-  background: #393939;
-  border-color: #393939;
+  background: #ff5200;
+  border-color: #ff5200;
 }
 
 .btn-submit {
