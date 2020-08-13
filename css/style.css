@@ -236,7 +236,7 @@ p {
 .banner-full-image {
   /* background: rgba(0, 0, 0, 0) url("../images/banner.png") no-repeat scroll */
   background-color: white;
-    center top / cover;
+  /* center top / cover; */
   background-attachment: fixed;
   height: 480px;
   position: relative;
@@ -875,7 +875,6 @@ footer {
   }
 }
 
-
 /* this is for the carousel  */
 
 .carousel {
@@ -896,7 +895,7 @@ footer {
   cursor: pointer;
 }
 #carousel-thumbs img:hover {
-  border-color: rgba(255,255,255,.3);
+  border-color: rgba(255, 255, 255, 0.3);
 }
 #carousel-thumbs .selected img {
   border-color: #fff;
@@ -927,4 +926,10 @@ body {
 
 a.nav-link {
   font-size: x-large;
+}
+
+#store-iframe {
+  width: 100%;
+  height: -webkit-fill-available;
+  border: none;
 }
