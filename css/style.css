@@ -960,7 +960,7 @@ a.nav-link {
     height: auto;
     width: 400px;
   }
-  #myCarousel .carousel-inner {
+  #myPhotoShootCarousel .carousel-inner {
     height: 595.17px;
     display: flex;
     align-items: center;
@@ -972,7 +972,7 @@ a.nav-link {
     height: auto;
     width: 350px;
   }
-  #myCarousel .carousel-inner {
+  #myPhotoShootCarousel .carousel-inner {
     height: 520.78px;
   }
 }
@@ -982,16 +982,16 @@ a.nav-link {
     height: auto;
     width: 320px;
   }
-  #myCarousel .carousel-inner {
+  #myPhotoShootCarousel .carousel-inner {
     height: 476.14.78px;
   }
 }
 
-#myCarousel {
+#myPhotoShootCarousel {
   width: 100%;
 }
 
-#myCarousel .carousel-inner {
+#myPhotoShootCarousel .carousel-inner {
   width: 100%;
 }
 
