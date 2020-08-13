@@ -933,3 +933,72 @@ a.nav-link {
   height: -webkit-fill-available;
   border: none;
 }
+
+.tall-carousel {
+  height: 641px;
+}
+
+@media (max-width: 1200px) {
+  .tall-carousel {
+    height: 540px;
+  }
+}
+
+@media (max-width: 990px) {
+  .tall-carousel {
+    height: 405px;
+  }
+}
+@media (max-width: 768px) {
+  .tall-carousel {
+    height: 303px;
+  }
+}
+
+@media (max-width: 575px) {
+  .tall-carousel {
+    height: auto;
+    width: 400px;
+  }
+  #myCarousel .carousel-inner {
+    height: 595.17px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .tall-carousel {
+    height: auto;
+    width: 350px;
+  }
+  #myCarousel .carousel-inner {
+    height: 520.78px;
+  }
+}
+
+@media (max-width: 350px) {
+  .tall-carousel {
+    height: auto;
+    width: 320px;
+  }
+  #myCarousel .carousel-inner {
+    height: 476.14.78px;
+  }
+}
+
+#myCarousel {
+  width: 100%;
+}
+
+#myCarousel .carousel-inner {
+  width: 100%;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
