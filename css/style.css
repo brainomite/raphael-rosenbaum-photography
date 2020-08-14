@@ -338,11 +338,11 @@ p {
 }
 
 /*contact*/
-.maintitle,
+/* .maintitle,
 .wrapactiondefault {
   background: rgba(0, 0, 0, 0) url("../images/sep-line.png") repeat scroll left
     top;
-}
+} */
 .maintitle {
   font-size: 19px;
   font-weight: 600;
@@ -352,7 +352,7 @@ p {
   padding: 0;
 }
 .maintitle span {
-  background: #fff none repeat scroll 0 0;
+  /* background: #fff none repeat scroll 0 0; */
   padding-right: 10px;
   text-transform: uppercase;
 }
